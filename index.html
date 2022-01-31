@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Groceries</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Grocery List:</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="fruit">A fruit</label>
+          <input id="fruit" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="drink">A drink</label>
+          <input id="drink" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="vegetable">A vegetable</label>
+          <input id="vegetable" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="snack">A snack</label>
+          <input id="snack" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="protein">A protein</label>
+          <input id="protein" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="bread">A bread</label>
+          <input id="bread" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Get my list!</button>
+      </form>
+    </div>
+
+    <div id="list">
+      <h1>Your Grocery List!</h1>
+      <ul>
+        <li><span class="fruit"></span></li>
+        <li><span class="drink"></span></li>
+        <li><span class="vegetable"></span></li>
+        <li><span class="snack"></span></li>
+        <li><span class="protein"></span></li>
+        <li><span class="bread"></span></li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
